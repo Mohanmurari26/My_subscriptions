@@ -1,10 +1,10 @@
-budget = int(input())
-A = [26,20,34,10.5,18]
-lst= ['TOI','Hindu','ET','BM','HT']
+budget = int(input())  
+A = [26,20,34,10.5,18]  #list of weekly prices of newspapers
+lst= ['TOI','Hindu','ET','BM','HT']  #list of newspapers
 for i in range(len(A)):
     for j in range(i,len(A)):
         if (A[i]+A[j] < budget):
-            if list[i] == lst[j]:
+            if lst[i] == lst[j]:
                 continue
             else:
                 result = {lst[i],lst[j]}
