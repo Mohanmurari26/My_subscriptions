@@ -1,3 +1,3 @@
 # My_subscriptions
-Test_vagrant coding que
-this is the python code
+this is Test_vagrant coding question answer 
+this is the python code and it is in this repository wih file name main.py
